@@ -12,7 +12,7 @@ client.on('ready', (c) => {
 client.on('messageCreate', (message) => {
   if (message.author.bot) return;
 
-  if (message.content === 'anh yeu em nhieu lam')
+  if (message.content === 'anh yeu em qua troi')
     message.reply('em cung yeu anh nhieu lam moa moa');
 })
 
