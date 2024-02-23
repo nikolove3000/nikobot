@@ -16,6 +16,19 @@ client.on('messageCreate', (message) => {
     message.reply('em cung yeu anh nhieu lam moa moa');
 })
 
+client.on('interactionCreate', (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
+  console.log(interaction.commandName);
+
+  if (interaction.commandName === 'hello') {
+    interaction.reply('Dẹt xơ dùng đúng lệnh rồi đó anh yêu');
+  }
+
+  if (interaction.commandName === 'anhyeuem') {
+    interaction.reply('Niko cung yeu anh nhieu lam 💖💖');
+  }
+})
+
 
 client.login(process.env.TOKEN);
 
