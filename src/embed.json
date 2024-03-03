@@ -1,0 +1,34 @@
+{
+  "embeds": [
+    {
+      "id": 652627557,
+      "description": "<@424836030168956929>",
+      "color": 12460794,
+      "author": {
+        "name": "This bot is made by"
+      },
+      "image": {
+        "url": "https://cdn.discordapp.com/attachments/1130071882402631781/1211936368725467176/nikobot_background.gif?ex=65f002b2&is=65dd8db2&hm=cd7552a6f7d9ec7da5821825b2e3b77e99db5b4f8fb01698f3e989f982f2e8a1&"
+      },
+      "fields": []
+    },
+    {
+      "id": 10674342,
+      "title": "Here is a embed example for Nikobot 🐱",
+      "description": "Nikobot is a small simple project to upload to my github since my teacher said that i should make a discord bot.\n\nHere are some key features of our bot:",
+      "color": 12460794,
+      "fields": [
+        {
+          "id": 485257573,
+          "name": "'anh yeu em qua troi'",
+          "value": "Typing this line can make nikobot said love you back 💖"
+        },
+        {
+          "id": 242146846,
+          "name": "/anhyeuem",
+          "value": "Still make the nikobot said love you back but in command 🥰"
+        }
+      ]
+    }
+  ]
+}
